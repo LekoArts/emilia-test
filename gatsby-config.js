@@ -5,5 +5,10 @@
  */
 
 module.exports = {
-  /* Your site config here */
+  plugins: [
+    {
+      resolve: `@lekoarts/gatsby-theme-emilia`,
+      options: {},
+    },
+  ]
 }
